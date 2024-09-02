@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* section1: my bio */
+.bio {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.bio-photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 10px dotted pink;
+}
+
+.bio-text h1{
+    margin-bottom: 15px;
+}
+
+.bio-text p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* section2: my hobbies */
+.hobbies{
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.hobbies h1{
+    margin-bottom: 15px;
+}
+
+.hobbies p { max-width: 600px; margin: 0 auto; padding-bottom: 3em; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073 } .hobbies p:hover { text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6; }  
+
+.hobbies p {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    filter: drop-shadow(0 0 10px #e60073);
+    transition: filter 0.5s ease-in-out;
+    color: black;
+}
+
+.hobbies p:hover {
+    filter: drop-shadow(0 0 20px #ff4da6);
+}
+
+.hobbies video{
+    width: 100%;
+    max-width: 600px;
+}
+/* section3: How to contact me */
+.contact{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h1{
+    margin-bottom: 15px;
+}
+
+.contact p{
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
